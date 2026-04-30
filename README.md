@@ -1,4 +1,4 @@
-# EPR-1 QaaS Blockchain
+# EPR-2 QaaS Blockchain
 
 **Quantum-as-a-Service for Blockchain** — Post-quantum cryptography API to protect wallets, transactions, and communication channels against quantum computer attacks.
 
@@ -11,7 +11,7 @@
 
 ## What is this?
 
-ECDSA (secp256k1) — the signature algorithm used by Bitcoin, Ethereum, and most blockchains — is vulnerable to [Shor's algorithm](https://en.wikipedia.org/wiki/Shor%27s_algorithm) on a sufficiently large quantum computer. The **EPR-1 QaaS** provides NIST-standardized post-quantum cryptographic primitives as a REST API, ready to integrate into any blockchain stack.
+ECDSA (secp256k1) — the signature algorithm used by Bitcoin, Ethereum, and most blockchains — is vulnerable to [Shor's algorithm](https://en.wikipedia.org/wiki/Shor%27s_algorithm) on a sufficiently large quantum computer. The **EPR-2 QaaS** provides NIST-standardized post-quantum cryptographic primitives as a REST API, ready to integrate into any blockchain stack.
 
 ### Threat Model
 
@@ -142,8 +142,8 @@ curl -X POST https://your-instance/api/qaas/channel/encapsulate \
 
 ```bash
 # Clone
-git clone https://github.com/YOUR_USERNAME/epr1-qaas-blockchain.git
-cd epr1-qaas-blockchain
+git clone https://github.com/YOUR_USERNAME/epr2-qaas-blockchain.git
+cd epr2-qaas-blockchain
 
 # Install dependencies
 pnpm install
@@ -186,7 +186,7 @@ pnpm --filter @workspace/nexus-forge run dev  # Dashboard on :5173
 ## Project Structure
 
 ```
-epr1-qaas-blockchain/
+epr2-qaas-blockchain/
 ├── artifacts/
 │   ├── api-server/          # Express API — PQC engine
 │   │   └── src/routes/
@@ -218,7 +218,7 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 ## Author
 
 **Manuel Alexander Roca González**
-EPR-1 Protocol · QaaS Blockchain
+EPR-2 Protocol · QaaS Blockchain
 
 ---
 
