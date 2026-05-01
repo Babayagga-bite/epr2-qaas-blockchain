@@ -222,6 +222,20 @@ EPR-2 Protocol · QaaS Blockchain
 
 ---
 
+## Donations
+
+If this project is useful to you, consider supporting its development with Bitcoin:
+
+**Bitcoin (Native SegWit · Bech32m)**
+
+```
+bc1par0jrcht3ahefa0puftt8mpfk9y4aqltvlhttp3fs44cpxh3hqxsrkfdhr
+```
+
+> Send only **BTC** via the **Bitcoin network** to the address above.
+
+---
+
 ## License
 
 [MIT](./LICENSE) — free to use, modify, and distribute.
